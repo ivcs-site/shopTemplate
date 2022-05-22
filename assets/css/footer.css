@@ -17,7 +17,7 @@
 }
 
 .footer-content__logo {
-    color: var(--colorMain);
+    color: var(--btnMain);
     font-weight: 900;
     font-size: 32px;
 }

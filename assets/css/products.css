@@ -41,7 +41,7 @@
 }
 
 .products-content__item:hover::before {
-    background-color: var(--colorMain);
+    background-color: var(--btnMain);
     transform: translateY(-5px);
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
 }

@@ -18,7 +18,7 @@
 }
 
 .navbar-nav__logo {
-    color: var(--colorMain);
+    color: var(--btnMain);
     font-weight: 900;
     font-size: 32px;
 }
@@ -89,7 +89,7 @@
 .navbar-nav__search--input {
     width: 100%;
     padding: 10px 12px;
-    border: 2px solid var(--colorMain);
+    border: 2px solid var(--btnMain);
     border-right: 0;
     background-color: var(--colorLight);
     border-radius: 4px 0 0 4px;

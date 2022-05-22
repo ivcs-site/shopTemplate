@@ -1,11 +1,11 @@
 .wrapper {
     width: 100%;
     min-height: 100vh;
-    background-color: var(--bgMain);
+    background: var(--bgMain);
 }
 
 .btn {
-    background-color: var(--btnMain);
+    background: var(--btnMain);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,9 +17,10 @@
 }
 
 .btn:hover {
-    background-color: var(--btnHover);
+    background: var(--btnHover);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .btn:focus {
-    background-color: var(--btnActive);
+    background: var(--btnActive);
 }

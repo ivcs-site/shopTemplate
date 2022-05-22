@@ -27,7 +27,7 @@
     width: 60px;
     height: 4px;
     border-radius: 50px;
-    background-color: #005BFF;
+    background: var(--btnMain);
     transition: 0.3s;
 }
 
