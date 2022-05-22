@@ -160,10 +160,10 @@
 @media (max-width: 355px) {
     .navbar-nav__wrapper {
         width: 100%;
-        justify-content: center;
+        justify-content: space-between;
     }
 
-    .navbar-nav__wrapper:first-of-type {
-        order: 1;
+    .navbar-nav__wrapper:last-of-type {
+        order: 2;
     }
 }
