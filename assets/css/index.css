@@ -11,6 +11,9 @@
 @import './navbar.css';
 @import './header.css';
 @import './category.css';
+@import './products.css';
+@import './footer.css';
+@import './copyright.css';
 
 /* media */
 @import './media.css';
