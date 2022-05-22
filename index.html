@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="assets/js/swiper.min.js" defer></script>
+    <script src="assets/js/index.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-nav">
+                    <div class="navbar-nav__wrapper">
+                        <a href="#!" class="navbar-nav__logo">LOGO</a>
+                        <div class="navbar-nav__filter">
+                            <button type="button" class="btn navbar-nav__filter--wrapper">
+                                <img src="assets/img/icon-filter.svg" alt="">
+                                <span>Фильтры</span>
+                            </button>
+                            <div class="navbar-nav__filter--list">
+                                <input type="text" class="navbar-nav__filter--list--min" placeholder="от">
+                                <input type="text" class="navbar-nav__filter--list--max" placeholder="до">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-nav__search">
+                        <input type="text" class="navbar-nav__search--input" placeholder="Поиск по сайту...">
+                        <a href="#!" class="btn">Найти</a>
+                    </div>
+                    <div class="navbar-nav__wrapper">
+                        <button type="button" class="btn navbar-nav__cart">
+                            <img src="./assets/img/icon-cart.svg" alt="">
+                            <span>Корзина</span>
+                        </button>
+                        <a href="#!" class="btn navbar-nav__lang">
+                            <img src="./assets/img/icon-lang.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="swiper mySwiper header-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide header-slider__item">
+                                <img src="./assets/img/slider-1.png" alt="" class="header-content__img">
+                                <div class="header-slider__item--wrapper">
+                                    <h2>Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray</h2>
+                                    <a href="#!" class="btn">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide header-slider__item">
+                                <img src="./assets/img/slider-2.png" alt="" class="header-content__img">
+                                <div class="header-slider__item--wrapper">
+                                    <h2>Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray</h2>
+                                    <a href="#!" class="btn">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide header-slider__item">
+                                <img src="./assets/img/slider-3.png" alt="" class="header-content__img">
+                                <div class="header-slider__item--wrapper">
+                                    <h2>Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray</h2>
+                                    <a href="#!" class="btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination header-slider__pagination"></div>
+                </div>
+            </div>
+        </header>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bgMain);
+}
+
+.btn {
+    background-color: var(--btnMain);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--lowShadow);
+    border-radius: var(--lowRadius);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--btnHover);
+}
+
+.btn:focus {
+    background-color: var(--btnActive);
+}
