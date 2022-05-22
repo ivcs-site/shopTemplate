@@ -19,6 +19,9 @@ const filter = () => {
 }
 
 var swiper = new Swiper(".mySwiper", {
+    autoplay: {
+        delay: 5000,
+    },
     spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
