@@ -23,6 +23,13 @@
     color: var(--btnMain);
     font-weight: 900;
     font-size: 32px;
+    width: 92px;
+}
+
+.navbar-nav__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .navbar-nav__filter {
