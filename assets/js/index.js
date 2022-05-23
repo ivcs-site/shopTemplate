@@ -61,6 +61,12 @@ ScrollReveal().reveal('.category', {
     distance: '200px',
 });
 
+ScrollReveal().reveal('.products-content__title', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '200px',
+});
+
 ScrollReveal().reveal('.products-content__item--scroll', {
     duration: 2000,
     origin: 'bottom',
