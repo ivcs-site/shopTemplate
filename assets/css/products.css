@@ -90,9 +90,6 @@
 .products-content__item--btn {
     width: 100%;
     padding: 8px;
-    color: var(--colorLight);
-    font-size: 14px;
-    font-weight: 700;
 }
 
 @media (max-width: 960px) {

@@ -69,9 +69,6 @@
 }
 
 .header-slider__item--wrapper a {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--colorLight);
     padding: 8px 60px;
 }
 
