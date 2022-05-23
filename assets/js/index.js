@@ -18,6 +18,20 @@ const filter = () => {
     })
 }
 
+const cart = () => {
+    let cartBtn = document.querySelector('.navbar-nav__cart')
+    let cartModal = document.querySelector('.cart-modal')
+    let cartModalClose = document.querySelector('.cart-modal__close')
+
+    cartBtn.addEventListener('click', () => {
+        cartModal.style.display = 'flex'
+    })
+
+    cartModalClose.addEventListener('click', () => {
+        cartModal.style.display = 'none'
+    })
+}
+
 var swiper = new Swiper(".mySwiper", {
     autoplay: {
         delay: 5000,
@@ -60,3 +74,4 @@ ScrollReveal().reveal('.footer', {
 });
 
 filter()
+cart()
