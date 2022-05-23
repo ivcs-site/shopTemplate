@@ -45,38 +45,38 @@ var swiper = new Swiper(".mySwiper", {
 
 ScrollReveal().reveal('.navbar', {
     duration: 2000,
-    origin: 'top',
-    distance: '200px',
+    origin: 'right',
+    distance: '50px',
 });
 
 ScrollReveal().reveal('.header', {
     duration: 2000,
     origin: 'left',
-    distance: '200px',
+    distance: '50px',
 });
 
 ScrollReveal().reveal('.category', {
     duration: 2000,
     origin: 'bottom',
-    distance: '200px',
+    distance: '50px',
 });
 
 ScrollReveal().reveal('.products-content__title', {
     duration: 2000,
     origin: 'bottom',
-    distance: '200px',
+    distance: '50px',
 });
 
 ScrollReveal().reveal('.products-content__item--scroll', {
     duration: 2000,
     origin: 'bottom',
-    distance: '200px',
+    distance: '50px',
 });
 
 ScrollReveal().reveal('.footer', {
     duration: 2000,
     origin: 'left',
-    distance: '200px',
+    distance: '50px',
 });
 
 filter()
