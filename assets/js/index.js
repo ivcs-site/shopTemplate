@@ -25,10 +25,12 @@ const cart = () => {
 
     cartBtn.addEventListener('click', () => {
         cartModal.style.display = 'flex'
+        document.body.style = 'overflow: hidden;'
     })
 
     cartModalClose.addEventListener('click', () => {
         cartModal.style.display = 'none'
+        document.body.style = ''
     })
 }
 
