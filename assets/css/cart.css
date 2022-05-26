@@ -83,6 +83,10 @@
     row-gap: 35px;
 }
 
+.cart-modal__list.active {
+    height: 267.5px;
+}
+
 .cart-modal__list::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -94,7 +98,6 @@
 
 .cart-modal__form {
     width: 100%;
-    height: 360px;
     box-shadow: var(--mainShadow);
     background-color: var(--bgMain);
     border-radius: var(--lowRadius);
@@ -103,11 +106,6 @@
     column-gap: 20px;
     padding: 25px;
     justify-content: space-between;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 1;
-    transition: 0.3s;
 }
 
 .cart-modal__form--wrapper {
@@ -142,18 +140,24 @@
 
 @media (max-width: 660px) {
     .cart-modal__form {
-        flex-direction: column;
+        column-gap: 10px;
         row-gap: 10px;
+        flex-direction: column;
+        padding: 10px;
     }
 
     .cart-modal__form--wrapper {
-        flex-direction: column;
         row-gap: 10px;
-        max-width: 360px;
+        column-gap: 10px;
+        flex-direction: column;
     }
 
-    .cart-modal__form--input {
-        width: 100%;
+    .cart-modal__form--send {
+        width: 160px;
+    }
+
+    .cart-modal__list.active {
+        height: 212.5px;
     }
 }
 

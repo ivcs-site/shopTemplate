@@ -5,6 +5,7 @@ const cart = () => {
     let cartModalBtnClose = document.querySelector('.cart-modal__btn--close')
     let cartModalNext = document.querySelector('.cart-modal__next')
     let cartModalForm = document.querySelector('.cart-modal__form')
+    let cartModalList = document.querySelector('.cart-modal__list')
 
     cartBtn.addEventListener('click', () => {
         cartModal.style.display = 'flex'
@@ -18,6 +19,8 @@ const cart = () => {
         cartModalForm.classList.remove('active')
         cartModalForm.style.display = 'none'
         cartModalNext.innerHTML = 'Оформить заказ'
+
+        cartModalList.classList.remove('active')
     })
     
     cartModalBtnClose.addEventListener('click', () => {
@@ -27,6 +30,8 @@ const cart = () => {
         cartModalForm.classList.remove('active')
         cartModalForm.style.display = 'none'
         cartModalNext.innerHTML = 'Оформить заказ'
+
+        cartModalList.classList.remove('active')
     })
 
     cartModalNext.addEventListener('click', () => {
@@ -34,10 +39,12 @@ const cart = () => {
             cartModalForm.classList.remove('active')
             cartModalForm.style.display = 'none'
             cartModalNext.innerHTML = 'Оформить заказ'
+            cartModalList.classList.remove('active')
         } else {
             cartModalForm.classList.add('active')
             cartModalForm.style.display = 'flex'
             cartModalNext.innerHTML = 'Назад'
+            cartModalList.classList.add('active')
         }
     })
 }
