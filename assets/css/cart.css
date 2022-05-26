@@ -64,8 +64,8 @@
 }
 
 .cart-modal__btn--close img {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     object-fit: contain;
 }
 
@@ -94,6 +94,7 @@
 
 .cart-modal__next {
     width: 160px;
+    height: 40px;
 }
 
 .cart-modal__form {
