@@ -22,6 +22,11 @@
     outline: none;
     cursor: pointer;
     position: relative;
+    transition: 0.3s;
+}
+
+.category-content__item:hover {
+    transform: translateY(-10px);
 }
 
 .category-content__item:hover .category-content__item-name {
