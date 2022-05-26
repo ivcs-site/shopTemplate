@@ -156,6 +156,10 @@
         width: 160px;
     }
 
+    .cart-modal__form--input {
+        width: 100%;
+    }
+
     .cart-modal__list.active {
         height: 212.5px;
     }
