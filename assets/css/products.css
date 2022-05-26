@@ -36,7 +36,7 @@
     padding: 10px;
     border-radius: var(--lowRadius);
     box-shadow: var(--lowShadow);
-    background-color: var(--bgLight);
+    background-color: var(--bgMain);
     align-items: flex-start;
 }
 
@@ -54,7 +54,7 @@
     height: 4px;
     border-radius: var(--lowRadius);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-    background-color: var(--bgLight);
+    background-color: var(--bgMain);
     bottom: -15px;
     left: 0;
     right: 0;

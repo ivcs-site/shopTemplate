@@ -1,0 +1,27 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaRd/shopTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyaRd/shopTemplate/issues"
+  },
+  "homepage": "https://github.com/IlyaRd/shopTemplate#readme",
+  "devDependencies": {
+    "scrollreveal": "^4.0.9",
+    "swiper": "^8.1.6",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
