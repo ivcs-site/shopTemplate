@@ -1,0 +1,111 @@
+{
+    "goods": [
+      {
+        "id": 0,
+        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+        "price": "6 900 000",
+        "sale": false,
+        "count": "9 360 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+        "category": "Телефоны"
+      },
+      {
+        "id": 1,
+        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+        "price": "6 900 000",
+        "sale": true,
+        "count": "9 360 000 сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1027495663.jpg",
+        "category": "Игровая приставка"
+      },
+      {
+        "id": 2,
+        "title": "Игровая приставка Xbox One X",
+        "price": 39990,
+        "sale": false,
+        "count": "2000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1024358491.jpg",
+        "category": "Игровая приставка"
+      },
+      {
+        "id": 3,
+        "title": "Игровая приставка Xbox One S",
+        "price": 23411,
+        "sale": true,
+        "count": "25000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1024822131.jpg",
+        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1024822128.jpg",
+        "category": "Игровая приставка"
+      },
+      {
+        "id": 4,
+        "title": "Игровая приставка Nintendo Switch",
+        "price": 24751,
+        "sale": false,
+        "count": "2000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1021386685.jpg",
+        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1026072683.jpg",
+        "category": "Игровая приставка"
+      },
+      {
+        "id": 5,
+        "title": "Игровая приставка Sega Retro Genesis HD",
+        "price": 3624,
+        "sale": true,
+        "count": "5000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1024928305.jpg",
+        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1024928306.jpg",
+        "category": "Игровая приставка"
+      },
+      {
+        "id": 6,
+        "title": "Игровая приставка Dendy Junior",
+        "price": 1551,
+        "sale": true,
+        "count": "2000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1021877092.jpg",
+        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1021877092.jpg",
+        "category": "Игровая приставка"
+      },
+      {
+        "id": 7,
+        "title": "Игровая приставка Sony PlayStation Classic",
+        "price": 10445,
+        "sale": false,
+        "count": "2000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1025222877.jpg",
+        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/102538227.jpg",
+        "category": "Игровая приставка"
+      },
+      {
+        "id": 8,
+        "title": "Клавиатура Logitech Wireless Keyboard K360",
+        "price": 2390,
+        "sale": false,
+        "count": "2000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1015518726.jpg",
+        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/102518725.jpg",
+        "category": "Периферия для ПК"
+      },
+      {
+        "id": 9,
+        "title": "Клавиатура Defender Element HB-195",
+        "price": 566,
+        "sale": true,
+        "count": "1000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1028488609.jpg",
+        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1028488611.jpg",
+        "category": "Периферия для ПК"
+      },
+      {
+        "id": 10,
+        "title": "Игровая клавиатура Steelseries Apex M750- RU",
+        "price": 12848,
+        "sale": true,
+        "count": "15000сум",
+        "img": "https://cdn1.ozone.ru/multimedia/c400/1027006299.jpg",
+        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1027006301.jpg",
+        "category": "Периферия для ПК"
+      }
+    ]
+  }
