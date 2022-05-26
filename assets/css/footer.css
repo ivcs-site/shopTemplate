@@ -20,6 +20,11 @@
     color: var(--btnMain);
     font-weight: 900;
     font-size: 32px;
+    transition: 0.3s;
+}
+
+.footer-content__logo:hover {
+    transform: translateY(-10px);
 }
 
 .footer-content__phone {
@@ -30,6 +35,11 @@
 
 .footer-content__social {
     display: flex;
+    transition: 0.3s;
+}
+
+.footer-content__social:hover {
+    transform: translateY(-10px);
 }
 
 .footer-content__up {
