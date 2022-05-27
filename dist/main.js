@@ -120,13 +120,33 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/modules/getSlide.js":
+/*!*********************************!*\
+  !*** ./src/modules/getSlide.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getSlide = () => {\r\n    return fetch('https://preview-1f60a-default-rtdb.firebaseio.com/slider.json')\r\n    .then((response) => {\r\n      return response.json()\r\n    })\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getSlide);\n\n//# sourceURL=webpack://shop/./src/modules/getSlide.js?");
+
+/***/ }),
+
 /***/ "./src/modules/load.js":
 /*!*****************************!*\
   !*** ./src/modules/load.js ***!
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _getData__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getData */ \"./src/modules/getData.js\");\n/* harmony import */ var _getCat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getCat */ \"./src/modules/getCat.js\");\n/* harmony import */ var _renderGoods__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./renderGoods */ \"./src/modules/renderGoods.js\");\n\r\n\r\n\r\n\r\nconst load = () => {\r\n    const cartBtn = document.getElementById('cart')\r\n\r\n    ;(0,_getData__WEBPACK_IMPORTED_MODULE_0__[\"default\"])().then((data) => {\r\n        ;(0,_renderGoods__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(data)\r\n    })\r\n    ;(0,_getCat__WEBPACK_IMPORTED_MODULE_1__[\"default\"])().then((data) => {\r\n        renderCat(data)\r\n    })\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (load);\n\n//# sourceURL=webpack://shop/./src/modules/load.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _getData__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getData */ \"./src/modules/getData.js\");\n/* harmony import */ var _getCat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getCat */ \"./src/modules/getCat.js\");\n/* harmony import */ var _getSlide__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./getSlide */ \"./src/modules/getSlide.js\");\n/* harmony import */ var _renderGoods__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./renderGoods */ \"./src/modules/renderGoods.js\");\n/* harmony import */ var _renderCat__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./renderCat */ \"./src/modules/renderCat.js\");\n/* harmony import */ var _renderSlide__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./renderSlide */ \"./src/modules/renderSlide.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst load = () => {\r\n    const cartBtn = document.getElementById('cart')\r\n\r\n    ;(0,_getData__WEBPACK_IMPORTED_MODULE_0__[\"default\"])().then((data) => {\r\n        ;(0,_renderGoods__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(data)\r\n    })\r\n\r\n    ;(0,_getCat__WEBPACK_IMPORTED_MODULE_1__[\"default\"])().then((data) => {\r\n        ;(0,_renderCat__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(data)\r\n    })\r\n\r\n    ;(0,_getSlide__WEBPACK_IMPORTED_MODULE_2__[\"default\"])().then((data) => {\r\n        ;(0,_renderSlide__WEBPACK_IMPORTED_MODULE_5__[\"default\"])(data)\r\n    })\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (load);\n\n//# sourceURL=webpack://shop/./src/modules/load.js?");
+
+/***/ }),
+
+/***/ "./src/modules/renderCat.js":
+/*!**********************************!*\
+  !*** ./src/modules/renderCat.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst renderCat = (cat) => {\r\n    const catWrapper = document.querySelector('.category-content')\r\n\r\n    // localStorage.setItem('products', JSON.stringify(products))\r\n\r\n    // productsWrapper.innerHTML = ''\r\n\r\n    cat.forEach((catItem) => {\r\n        catWrapper.insertAdjacentHTML('beforeend', `\r\n        <a href=\"#products\" class=\"category-content__item category-content__item-1 data-key=\"${catItem.id}\"\r\n        style=\"background-image: url('${catItem.img}');\r\n                       background-position: center;\r\n                       background-repeat: no-repeat;\r\n                       background-size: cover;\">\r\n            <span class=\"category-content__item-name\">${catItem.title}</span>\r\n        </a>\r\n        `)\r\n    })\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderCat);\n\n//# sourceURL=webpack://shop/./src/modules/renderCat.js?");
 
 /***/ }),
 
@@ -137,6 +157,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst renderGoods = (products) => {\r\n    const productsWrapper = document.querySelector('.products-content__wrapper')\r\n\r\n    // localStorage.setItem('products', JSON.stringify(products))\r\n\r\n    // productsWrapper.innerHTML = ''\r\n\r\n    products.forEach((productsItem) => {\r\n        productsWrapper.insertAdjacentHTML('beforeend', `\r\n        <div class=\"products-content__item products-content__item--scroll\" data-key=\"${productsItem.id}\">\r\n            ${ productsItem.sale ? '<div class=\"products-content__item--sale\"><span>Акция</span></div>' : ''}\r\n            <img src=\"${productsItem.img}\" alt=\"img\" class=\"products-content__item--img\">\r\n            <h3 class=\"products-content__item--name\">${productsItem.title}</h3>\r\n            <div class=\"products-content__item--discount\">\r\n                <span class=\"products-content__item--price\">${productsItem.price} сум</span>\r\n                <span class=\"products-content__item--price--old\">${productsItem.sale ? productsItem.count : ''}</span>\r\n            </div>\r\n            <button type=\"button\" class=\"btn products-content__item--btn\">В корзину</button>\r\n        </div>\r\n        `)\r\n    })\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderGoods);\n\n//# sourceURL=webpack://shop/./src/modules/renderGoods.js?");
+
+/***/ }),
+
+/***/ "./src/modules/renderSlide.js":
+/*!************************************!*\
+  !*** ./src/modules/renderSlide.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst renderSlide = (slide) => {\r\n    const slideWrapper = document.querySelector('.swiper-wrapper')\r\n\r\n    // localStorage.setItem('products', JSON.stringify(products))\r\n\r\n    // productsWrapper.innerHTML = ''\r\n\r\n    slide.forEach((slideItem) => {\r\n        slideWrapper.insertAdjacentHTML('beforeend', `\r\n            <div class=\"swiper-slide header-slider__item\">\r\n                <img src=\"${slideItem.img}\" alt=\"img\" class=\"header-content__img\">\r\n                <div class=\"header-slider__item--wrapper\">\r\n                    <h2>${slideItem.title}</h2>\r\n                    <a href=\"#products\" class=\"btn\">Подробнее</a>\r\n                </div>\r\n            </div>\r\n        `)\r\n    })\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderSlide);\n\n//# sourceURL=webpack://shop/./src/modules/renderSlide.js?");
 
 /***/ }),
 
