@@ -10,6 +10,14 @@ const cart = () => {
     cartBtn.addEventListener('click', () => {
         cartModal.style.display = 'flex'
         document.body.style = 'overflow: hidden;'
+
+        const cart = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
+
+        // renderCart(cart)
+
+        cartTotal.textContent = cart.reduce((sum, goodItem) => {
+            return sum + goodItem.price
+        }, 0)
     })
 
     cartModalClose.addEventListener('click', () => {
