@@ -1,5 +1,5 @@
 const postData = () => {
-    return fetch('https://jsonplaceholder.typicode.com/posts', {
+    return fetch('http://localhost:3000/posts', {
         method: 'POST',
         body: JSON.stringify(cart),
         headers: {

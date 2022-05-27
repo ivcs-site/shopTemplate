@@ -6,6 +6,7 @@ const cart = () => {
     let cartModalNext = document.querySelector('.cart-modal__next')
     let cartModalForm = document.querySelector('.cart-modal__form')
     let cartModalList = document.querySelector('.cart-modal__list')
+    let cartTotal = document.querySelector('cart-modal__total')
 
     cartBtn.addEventListener('click', () => {
         cartModal.style.display = 'flex'
@@ -15,8 +16,8 @@ const cart = () => {
 
         // renderCart(cart)
 
-        cartTotal.textContent = cart.reduce((sum, goodItem) => {
-            return sum + goodItem.price
+        cartTotal.textContent = cart.reduce((sum, productItem) => {
+            return sum + productItem.price
         }, 0)
     })
 
@@ -30,7 +31,7 @@ const cart = () => {
 
         cartModalList.classList.remove('active')
     })
-    
+
     cartModalBtnClose.addEventListener('click', () => {
         cartModal.style.display = 'none'
         document.body.style = ''
