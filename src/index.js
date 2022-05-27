@@ -2,6 +2,7 @@ import Swiper from 'swiper/bundle';
 import ScrollReveal from "scrollreveal"
 import filter from "./modules/filter"
 import cart from "./modules/cart"
+import load from './modules/load';
 
 const swiper = new Swiper(".swiper", {
     autoplay: {
@@ -38,9 +39,10 @@ ScrollReveal().reveal('.products-content__title', {
     distance: '50px',
 });
 
-ScrollReveal().reveal('.products-content__item--scroll', {
+ScrollReveal().reveal('.products-content__wrapper', {
     duration: 2000,
     origin: 'bottom',
+    scale: 0.5,
     distance: '50px',
 });
 
@@ -52,3 +54,4 @@ ScrollReveal().reveal('.footer', {
 
 filter()
 cart()
+load()
