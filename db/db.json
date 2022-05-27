@@ -1,9 +1,9 @@
 {
-    "goods": [
+    "products": [
       {
         "id": 0,
         "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
-        "price": "6 900 000",
+        "price": 6900000,
         "sale": false,
         "count": "9 360 000 сум",
         "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
@@ -12,100 +12,168 @@
       {
         "id": 1,
         "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
-        "price": "6 900 000",
+        "price": 7900000,
         "sale": true,
         "count": "9 360 000 сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1027495663.jpg",
-        "category": "Игровая приставка"
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+        "category": "Телефоны"
       },
       {
         "id": 2,
-        "title": "Игровая приставка Xbox One X",
-        "price": 39990,
+        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+        "price": 5899900,
         "sale": false,
-        "count": "2000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1024358491.jpg",
-        "category": "Игровая приставка"
+        "count": "6 600 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+        "category": "Телефоны"
       },
       {
         "id": 3,
-        "title": "Игровая приставка Xbox One S",
-        "price": 23411,
+        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+        "price": 2341100,
         "sale": true,
-        "count": "25000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1024822131.jpg",
-        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1024822128.jpg",
-        "category": "Игровая приставка"
+        "count": "2 500 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+        "category": "Телефоны"
       },
       {
         "id": 4,
-        "title": "Игровая приставка Nintendo Switch",
-        "price": 24751,
+        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+        "price": 2475150,
         "sale": false,
-        "count": "2000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1021386685.jpg",
-        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1026072683.jpg",
-        "category": "Игровая приставка"
+        "count": "2 000 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+        "category": "Телефоны"
       },
       {
         "id": 5,
-        "title": "Игровая приставка Sega Retro Genesis HD",
-        "price": 3624,
+        "title": "Игровой ноутбук Lenovo Gaming 3 15ACH6 82K20015US",
+        "price": 11624000,
         "sale": true,
-        "count": "5000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1024928305.jpg",
-        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1024928306.jpg",
-        "category": "Игровая приставка"
+        "count": "12 000 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+        "category": "Ноутбуки"
       },
       {
         "id": 6,
-        "title": "Игровая приставка Dendy Junior",
-        "price": 1551,
+        "title": "Игровой ноутбук Lenovo Gaming 3 15ACH6 82K20015US",
+        "price": 15551250,
         "sale": true,
-        "count": "2000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1021877092.jpg",
-        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1021877092.jpg",
-        "category": "Игровая приставка"
+        "count": "18 456 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+        "category": "Ноутбуки"
       },
       {
         "id": 7,
-        "title": "Игровая приставка Sony PlayStation Classic",
-        "price": 10445,
+        "title": "Игровой ноутбук Lenovo Gaming 3 15ACH6 82K20015US",
+        "price": 10565445,
         "sale": false,
-        "count": "2000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1025222877.jpg",
-        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/102538227.jpg",
-        "category": "Игровая приставка"
+        "count": "12 000 549 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+        "category": "Ноутбуки"
       },
       {
         "id": 8,
-        "title": "Клавиатура Logitech Wireless Keyboard K360",
-        "price": 2390,
+        "title": "Игровой ноутбук Lenovo Gaming 3 15ACH6 82K20015US",
+        "price": 12390000,
         "sale": false,
-        "count": "2000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1015518726.jpg",
-        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/102518725.jpg",
-        "category": "Периферия для ПК"
+        "count": "2 000 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+        "category": "Ноутбуки"
       },
       {
         "id": 9,
-        "title": "Клавиатура Defender Element HB-195",
-        "price": 566,
+        "title": "Игровой ноутбук Lenovo Gaming 3 15ACH6 82K20015US",
+        "price": 11256566,
         "sale": true,
-        "count": "1000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1028488609.jpg",
-        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1028488611.jpg",
-        "category": "Периферия для ПК"
+        "count": "12 960 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+        "category": "Ноутбуки"
       },
       {
         "id": 10,
-        "title": "Игровая клавиатура Steelseries Apex M750- RU",
-        "price": 12848,
+        "title": "Телевизор Samsung UE55AU7100 Smart",
+        "price": 14256566,
+        "sale": false,
+        "count": "16 960 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+        "category": "Телевизоры"
+      },
+      {
+        "id": 11,
+        "title": "Телевизор Samsung UE55AU7100 Smart",
+        "price": 13256566,
+        "sale": false,
+        "count": "16 960 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+        "category": "Телевизоры"
+      },
+      {
+        "id": 12,
+        "title": "Телевизор Samsung UE55AU7100 Smart",
+        "price": 10256566,
         "sale": true,
-        "count": "15000сум",
-        "img": "https://cdn1.ozone.ru/multimedia/c400/1027006299.jpg",
-        "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1027006301.jpg",
-        "category": "Периферия для ПК"
+        "count": "12 960 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+        "category": "Телевизоры"
+      },
+      {
+        "id": 13,
+        "title": "Телевизор Samsung UE55AU7100 Smart",
+        "price": 9256566,
+        "sale": false,
+        "count": "11 960 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+        "category": "Телевизоры"
+      },
+      {
+        "id": 14,
+        "title": "Телевизор Samsung UE55AU7100 Smart",
+        "price": 8256566,
+        "sale": true,
+        "count": "10 960 000 сум",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+        "category": "Телевизоры"
+      }
+    ],
+    "category": [
+      {
+        "id": 0,
+        "title": "Телефоны",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fcategory-3.jpg?alt=media&token=002a92f4-4b64-4377-8047-bc9eec9d7165",
+        "category": "Телефоны"
+      },
+      {
+        "id": 1,
+        "title": "Ноутбуки",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fcategory-2.jpg?alt=media&token=573e686b-b94c-420c-b2e6-5887a726990d",
+        "category": "Ноутбуки"
+      },
+      {
+        "id": 0,
+        "title": "Телевизоры",
+        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fcategory-1.jpg?alt=media&token=455a0b08-526d-4520-9dc6-daddaaa79024",
+        "category": "Телевизоры"
+      }
+    ],
+    "slider": [
+      {
+        "id": 0,
+        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+        "img":"https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+        "category": "slide1"
+      },
+      {
+        "id": 1,
+        "title": "Игровой ноутбук Lenovo Gaming 3 15ACH6 82K20015US",
+        "img":"https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+        "category": "slide1"
+      },
+      {
+        "id": 2,
+        "title": "Телевизор Samsung UE55AU7100 Smart",
+        "img":"https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+        "category": "slide1"
       }
     ]
   }
