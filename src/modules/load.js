@@ -1,4 +1,5 @@
 import getData from "./getData";
+import getCat from "./getCat";
 import renderGoods from "./renderGoods";
 
 const load = () => {
@@ -6,6 +7,9 @@ const load = () => {
 
     getData().then((data) => {
         renderGoods(data)
+    })
+    getCat().then((data) => {
+        renderCat(data)
     })
 }
 
