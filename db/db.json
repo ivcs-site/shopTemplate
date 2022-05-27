@@ -156,26 +156,6 @@
         "category": "Телевизоры"
       }
     ],
-    "slider": [
-      {
-        "id": 0,
-        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
-        "img":"https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
-        "category": "slide1"
-      },
-      {
-        "id": 1,
-        "title": "Игровой ноутбук Lenovo Gaming 3 ",
-        "img":"https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
-        "category": "slide1"
-      },
-      {
-        "id": 2,
-        "title": "Телевизор Samsung UE55AU7100 Smart",
-        "img":"https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
-        "category": "slide1"
-      }
-    ],
     "posts":[
 
     ]
