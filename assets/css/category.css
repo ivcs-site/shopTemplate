@@ -33,18 +33,6 @@
     transform: translateY(-35px);
 }
 
-.category-content__item-1 {
-    background: url('../img/category-1.jpg') no-repeat center center / cover;
-}
-
-.category-content__item-2 {
-    background: url('../img/category-2.jpg') no-repeat center center / cover;
-}
-
-.category-content__item-3 {
-    background: url('../img/category-3.jpg') no-repeat center center / cover;
-}
-
 .category-content__item-name {
     padding: 16px;
     color: var(--colorLight);
