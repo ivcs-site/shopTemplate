@@ -19,37 +19,43 @@ const swiper = new Swiper(".swiper", {
 
 ScrollReveal().reveal('.navbar', {
     duration: 2000,
-    origin: 'right',
+    origin: 'top',
+    scale: 0.9,
     distance: '50px',
 });
 
 ScrollReveal().reveal('.header', {
     duration: 2000,
-    origin: 'left',
+    origin: 'bottom',
+    scale: 0.9,
     distance: '50px',
 });
 
 ScrollReveal().reveal('.category', {
     duration: 2000,
-    origin: 'right',
+    origin: 'bottom',
+    scale: 0.9,
     distance: '50px',
 });
 
 ScrollReveal().reveal('.products-content__title', {
     duration: 2000,
-    origin: 'left',
+    origin: 'bottom',
+    scale: 0.9,
     distance: '50px',
 });
 
 ScrollReveal().reveal('.products-content__wrapper', {
     duration: 2000,
-    origin: 'right',
+    origin: 'bottom',
+    scale: 0.9,
     distance: '50px',
 });
 
 ScrollReveal().reveal('.footer', {
     duration: 2000,
-    origin: 'left',
+    origin: 'bottom',
+    scale: 0.9,
     distance: '50px',
 });
 
