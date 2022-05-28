@@ -24,4 +24,9 @@
 
 * {
     font-family: 'Raleway', sans-serif;
+    font-variant-numeric: lining-nums;
+    -ms-font-feature-settings:”lnum” 1; 
+    -o-font-feature-settings:”lnum” 1; 
+    -webkit-font-feature-settings:”lnum” 1; 
+    font-feature-settings:”lnum” 1;
 }

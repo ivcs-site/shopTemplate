@@ -150,14 +150,17 @@
     height: 15px;
     border: 2px solid var(--btnMain);
     border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-nav__filter--list--checked {
-    left: 2.5px;
-    position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 6px;
+    height: 6px;
     display: none;
+    border-radius: 1px;
+    background: var(--btnMain);
 }
 
 @media (max-width: 960px) {

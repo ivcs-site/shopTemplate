@@ -18,43 +18,36 @@ const swiper = new Swiper(".swiper", {
 });
 
 ScrollReveal().reveal('.navbar', {
-    delay: 1000,
     duration: 2000,
     origin: 'right',
     distance: '50px',
 });
 
 ScrollReveal().reveal('.header', {
-    delay: 1000,
     duration: 2000,
     origin: 'left',
     distance: '50px',
 });
 
 ScrollReveal().reveal('.category', {
-    delay: 1000,
     duration: 2000,
-    origin: 'bottom',
+    origin: 'right',
     distance: '50px',
 });
 
 ScrollReveal().reveal('.products-content__title', {
-    delay: 1000,
     duration: 2000,
-    origin: 'bottom',
+    origin: 'left',
     distance: '50px',
 });
 
 ScrollReveal().reveal('.products-content__wrapper', {
-    delay: 1000,
     duration: 2000,
-    origin: 'bottom',
-    scale: 0.5,
+    origin: 'right',
     distance: '50px',
 });
 
 ScrollReveal().reveal('.footer', {
-    delay: 1000,
     duration: 2000,
     origin: 'left',
     distance: '50px',
