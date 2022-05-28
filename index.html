@@ -21,10 +21,10 @@
                                 <span>Фильтры</span>
                             </button>
                             <div class="navbar-nav__filter--list">
-                                <input type="text" class="navbar-nav__filter--list--input navbar-nav__filter--list--min" placeholder="цена от">
-                                <input type="text" class="navbar-nav__filter--list--input navbar-nav__filter--list--max" placeholder="цена до">
+                                <input id="min" type="text" class="navbar-nav__filter--list--input navbar-nav__filter--list--min" placeholder="цена от">
+                                <input id="max" type="text" class="navbar-nav__filter--list--input navbar-nav__filter--list--max" placeholder="цена до">
                                 <label class="navbar-nav__filter--list--label">
-                                    <input type="checkbox" class="navbar-nav__filter--list--discount">
+                                    <input id="discount" type="checkbox" class="navbar-nav__filter--list--discount">
                                     <div class="navbar-nav__filter--list--checkbox"></div>
                                     <div class="navbar-nav__filter--list--checked">
                                         <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@
                     </div>
                     <div class="navbar-nav__search">
                         <input type="text" class="navbar-nav__search--input" placeholder="Поиск по сайту...">
-                        <a href="#!" class="btn">Найти</a>
+                        <a href="#products" class="btn">Найти</a>
                     </div>
                     <div class="navbar-nav__wrapper">
                         <button type="button" class="btn navbar-nav__cart">
@@ -87,6 +87,15 @@
         <section class="category">
             <div class="container">
                 <div class="category-content">
+                    <a href="#products" class="category-content__item category-content__item-1">
+                        <span class="category-content__item-name">Телефоны</span>
+                    </a>
+                    <a href="#products" class="category-content__item category-content__item-2">
+                        <span class="category-content__item-name">Ноутбуки</span>
+                    </a>
+                    <a href="#products" class="category-content__item category-content__item-3">
+                        <span class="category-content__item-name">Телевизоры</span>
+                    </a>
                 </div>
             </div>
         </section>
@@ -95,7 +104,6 @@
                 <div class="products-content">
                     <h2 class="products-content__title">Все товары</h2>
                     <div class="products-content__wrapper">
-
                     </div>
                 </div>
             </div>
@@ -134,13 +142,14 @@
             <div class="cart-modal__close"></div>
             <div class="cart-modal__wrapper">
                 <div class="cart-modal__total">
-                    Всего: <span>10000</span> сум
+                    Всего: <span id="cartSpan">0</span> сум
                 </div>
                 <button class="cart-modal__btn--close">
                     <img src="./assets/img/icon-close.svg" alt="">
                 </button>
                 <div class="cart-modal__list">
-                    <div class="products-content__item cart-content__item">
+
+                    <!-- <div class="products-content__item cart-content__item">
                         <img src="assets/img/slider-1.png" alt="" class="products-content__item--img">
                         <h3 class="products-content__item--name">Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray</h3>
                         <span class="products-content__item--price">6 900 000 сум</span>
@@ -193,7 +202,7 @@
                         <h3 class="products-content__item--name">Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray</h3>
                         <span class="products-content__item--price">6 900 000 сум</span>
                         <button type="button" class="btn products-content__item--btn">В корзину</button>
-                    </div>
+                    </div> -->
                 </div>
                 <form class="cart-modal__form">
                     <div class="cart-modal__form--wrapper">

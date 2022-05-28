@@ -3,6 +3,8 @@ import ScrollReveal from "scrollreveal"
 import filter from "./modules/filter"
 import cart from "./modules/cart"
 import load from './modules/load';
+import search from './modules/search';
+import catalog from './modules/catalog';
 
 const swiper = new Swiper(".swiper", {
     autoplay: {
@@ -60,4 +62,6 @@ ScrollReveal().reveal('.footer', {
 
 filter()
 cart()
+catalog()
 load()
+search()
