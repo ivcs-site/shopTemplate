@@ -34,7 +34,7 @@
 .cart-modal__total {
     position: absolute;
     left: -10px;
-    top: -25px;
+    top: -30px;
     padding: 12px;
     background: var(--btnMain);
     border-radius: var(--lowRadius);
@@ -50,7 +50,7 @@
     height: 40px;
     position: absolute;
     right: -10px;
-    top: -25px;
+    top: -30px;
     background: var(--btnMain);
     border-radius: var(--lowRadius);
     box-shadow: var(--lowShadow);
