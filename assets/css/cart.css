@@ -186,3 +186,6 @@
         width: 100%;
     }
 }
+.disabled{
+    display: none !important; 
+}

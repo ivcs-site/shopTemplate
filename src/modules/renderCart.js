@@ -1,5 +1,6 @@
 const renderCart = (products) => {
     const cartWrapper = document.querySelector('.cart-modal__list')
+    const cartModalNext = document.querySelector('.cart-modal__next')
 
     cartWrapper.innerHTML = ''
 
@@ -9,7 +10,9 @@ const renderCart = (products) => {
                 Ваша корзина пустая
             </div>
         `)
+        cartModalNext.classList.add('disabled')
     }else{
+        cartModalNext.classList.remove('disabled')
         products.forEach((productsItem) => {
             cartWrapper.insertAdjacentHTML('beforeend', `
             <div class="products-content__item products-content__item--scroll" data-key="${productsItem.id}">

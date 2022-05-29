@@ -32,23 +32,21 @@ const cart = () => {
     cartModalClose.addEventListener('click', () => {
         cartModal.style.display = 'none'
         document.body.style = ''
-
         cartModalForm.classList.remove('active')
         cartModalForm.style.display = 'none'
         cartModalNext.innerHTML = 'Оформить заказ'
-
         cartModalList.classList.remove('active')
+        cartModalNext.classList.add('disabled')
     })
 
     cartModalBtnClose.addEventListener('click', () => {
         cartModal.style.display = 'none'
         document.body.style = ''
-
         cartModalForm.classList.remove('active')
         cartModalForm.style.display = 'none'
         cartModalNext.innerHTML = 'Оформить заказ'
-
         cartModalList.classList.remove('active')
+        cartModalNext.classList.add('disabled')
     })
 
     cartModalNext.addEventListener('click', () => {
