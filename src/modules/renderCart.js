@@ -1,6 +1,7 @@
 const renderCart = (products) => {
     const cartWrapper = document.querySelector('.cart-modal__list')
     const cartModalNext = document.querySelector('.cart-modal__next')
+    const cartModalForm = document.querySelector('.cart-modal__form')
 
     cartWrapper.innerHTML = ''
 
@@ -11,7 +12,9 @@ const renderCart = (products) => {
             </div>
         `)
         cartModalNext.classList.add('disabled')
+        cartModalForm.classList.add('disabled')
     }else{
+        cartModalForm.classList.remove('disabled')
         cartModalNext.classList.remove('disabled')
         products.forEach((productsItem) => {
             cartWrapper.insertAdjacentHTML('beforeend', `
