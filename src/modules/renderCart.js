@@ -2,6 +2,7 @@ const renderCart = (products) => {
     const cartWrapper = document.querySelector('.cart-modal__list')
     const cartModalNext = document.querySelector('.cart-modal__next')
     const cartModalForm = document.querySelector('.cart-modal__form')
+    const cartModalList = document.querySelector('.cart-modal__list')
 
     cartWrapper.innerHTML = ''
 
@@ -13,6 +14,7 @@ const renderCart = (products) => {
         `)
         cartModalNext.classList.add('disabled')
         cartModalForm.classList.add('disabled')
+        cartModalList.classList.remove('active')
     }else{
         cartModalForm.classList.remove('disabled')
         cartModalNext.classList.remove('disabled')
