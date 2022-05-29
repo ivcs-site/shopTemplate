@@ -1,6 +1,6 @@
 export const searchFillter = (products, valueInput) => {
     return products.filter((productsItem) => {
-        return productsItem.title.toLowerCase().includes(valueInput.toLowerCase())
+        return productsItem.title.toLowerCase().trim().includes(valueInput.toLowerCase().trim())
     })
 }
 
