@@ -100,11 +100,11 @@ const cart = () => {
         }
     })
 
-    function sendMail(cart) {
-        const mailSubject = "Новый Заказ из Интернет Магазина"
-        const mail = `mailto:mardonov.mexriddin1997@gmail.com?subject=${mailSubject}&body=${cart}`
-        window.open(mail);
-    }
+    // function sendMail(cart) {
+    //     const mailSubject = "Новый Заказ из Интернет Магазина"
+    //     const mail = `mailto:mardonov.mexriddin1997@gmail.com?subject=${mailSubject}&body=${cart}`
+    //     window.open(mail);
+    // }
 
     send_form.addEventListener('submit', (e) => {
         e.preventDefault();
@@ -125,7 +125,7 @@ const cart = () => {
             renderCart([])
             cartTotal.textContent = 0
         });
-        sendMail(JSON.stringify(cart));
+        // sendMail(JSON.stringify(cart));
     })
     
 }
