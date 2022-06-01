@@ -8,7 +8,7 @@ const renderGoods = (products) => {
     products.forEach((productsItem) => {
         productsWrapper.insertAdjacentHTML('beforeend', `
         <div class="products-content__item products-content__item--scroll" data-key="${productsItem.id}">
-            ${ productsItem.sale ? '<div class="products-content__item--sale"><span>Акция</span></div>' : ''}
+            ${productsItem.sale ? '<div class="products-content__item--sale"><span>Акция</span></div>' : ''}
             <img src="${productsItem.img}" alt="img" class="products-content__item--img">
             <h3 class="products-content__item--name">${productsItem.title}</h3>
             <div class="products-content__item--discount">

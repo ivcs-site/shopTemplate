@@ -136,13 +136,5 @@
       "category": "Телевизоры"
     }
   ],
-  "posts": [{
-      "id": 0,
-      "title": "Телевизор Samsung UE55AU7100 Smart",
-      "price": 8256566,
-      "sale": true,
-      "count": "6600000",
-      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
-      "category": "Телевизоры"
-  }]
+  "posts": []
 }
