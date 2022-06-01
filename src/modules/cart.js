@@ -118,6 +118,7 @@ const cart = () => {
         cart.forEach(object => {
             object.name = name;
             object.phone = phone;
+            object.totalPrice = cartTotal.textContent
         });
 
         postData(cart).then(() => {
