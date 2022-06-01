@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script src="./dist/main.js" defer></script>
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
     <div class="wrapper">
         <nav class="navbar" id="navbar">
@@ -21,8 +23,12 @@
                                 <span>Фильтры</span>
                             </button>
                             <div class="navbar-nav__filter--list">
-                                <input id="min" type="text" class="navbar-nav__filter--list--input navbar-nav__filter--list--min" placeholder="цена от">
-                                <input id="max" type="text" class="navbar-nav__filter--list--input navbar-nav__filter--list--max" placeholder="цена до">
+                                <input id="min" type="text"
+                                    class="navbar-nav__filter--list--input navbar-nav__filter--list--min"
+                                    placeholder="цена от">
+                                <input id="max" type="text"
+                                    class="navbar-nav__filter--list--input navbar-nav__filter--list--max"
+                                    placeholder="цена до">
                                 <label class="navbar-nav__filter--list--label">
                                     <input id="discount" type="checkbox" class="navbar-nav__filter--list--discount">
                                     <div class="navbar-nav__filter--list--checkbox">
@@ -77,9 +83,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination header-slider__pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"></div>
+                    <div
+                        class="swiper-pagination header-slider__pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                    </div>
                 </div>
             </div>
+
         </header>
         <section class="category">
             <div class="container">
@@ -96,6 +105,7 @@
                 </div>
             </div>
         </section>
+
         <section class="products" id="products">
             <div class="container">
                 <div class="products-content">
@@ -132,9 +142,11 @@
                 </div>
             </div>
         </footer>
+
         <section class="copyright">
             <h1 class="copyright-name">© IVCS 2022 All Rights Reserved</h1>
         </section>
+
         <div class="cart-modal">
             <div class="cart-modal__close"></div>
             <div class="cart-modal__wrapper">
@@ -145,18 +157,24 @@
                     <img src="./assets/img/icon-close.svg" alt="">
                 </button>
                 <div class="cart-modal__list"></div>
-                <form class="cart-modal__form">
+
+                <form class="cart-modal__form" id="my_form">
                     <div class="cart-modal__form--wrapper">
-                        <input type="text" class="cart-modal__form--input cart-modal__form--name" placeholder="Ваше имя">
-                        <input type="text" class="cart-modal__form--input cart-modal__form--phone" placeholder="Номер телефона/telegram">
+                        <input type="text" class="cart-modal__form--input cart-modal__form--name"
+                            placeholder="Ваше имя">
+                        <input type="text" class="cart-modal__form--input cart-modal__form--phone"
+                            placeholder="Номер телефона/telegram">
                     </div>
-                    <button class="btn cart-modal__form--send">Заказать</button>
+                    <button type='submit' class="btn cart-modal__form--send">Заказать</button>
                 </form>
+
                 <button type="button" class="btn cart-modal__next disabled">
                     <span>Оформить заказ</span>
                 </button>
             </div>
         </div>
+
     </div>
 </body>
+
 </html>

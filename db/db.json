@@ -1,139 +1,140 @@
 {
-    "products": [
-      {
-        "id": 0,
-        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
-        "price": 6900000,
-        "sale": false,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
-        "category": "Телефоны"
-      },
-      {
-        "id": 1,
-        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
-        "price": 7900000,
-        "sale": true,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
-        "category": "Телефоны"
-      },
-      {
-        "id": 2,
-        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
-        "price": 5899900,
-        "sale": false,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
-        "category": "Телефоны"
-      },
-      {
-        "id": 3,
-        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
-        "price": 2341100,
-        "sale": true,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
-        "category": "Телефоны"
-      },
-      {
-        "id": 4,
-        "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
-        "price": 2475150,
-        "sale": false,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
-        "category": "Телефоны"
-      },
-      {
-        "id": 5,
-        "title": "Игровой ноутбук Lenovo Gaming 3 ",
-        "price": 11624000,
-        "sale": true,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
-        "category": "Ноутбуки"
-      },
-      {
-        "id": 6,
-        "title": "Игровой ноутбук Lenovo Gaming 3 ",
-        "price": 15551250,
-        "sale": true,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
-        "category": "Ноутбуки"
-      },
-      {
-        "id": 7,
-        "title": "Игровой ноутбук Lenovo Gaming 3 ",
-        "price": 10565445,
-        "sale": false,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
-        "category": "Ноутбуки"
-      },
-      {
-        "id": 8,
-        "title": "Игровой ноутбук Lenovo Gaming 3 ",
-        "price": 12390000,
-        "sale": false,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
-        "category": "Ноутбуки"
-      },
-      {
-        "id": 9,
-        "title": "Игровой ноутбук Lenovo Gaming 3 ",
-        "price": 11256566,
-        "sale": true,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
-        "category": "Ноутбуки"
-      },
-      {
-        "id": 10,
-        "title": "Телевизор Samsung UE55AU7100 Smart",
-        "price": 14256566,
-        "sale": false,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
-        "category": "Телевизоры"
-      },
-      {
-        "id": 11,
-        "title": "Телевизор Samsung UE55AU7100 Smart",
-        "price": 13256566,
-        "sale": false,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
-        "category": "Телевизоры"
-      },
-      {
-        "id": 12,
-        "title": "Телевизор Samsung UE55AU7100 Smart",
-        "price": 10256566,
-        "sale": true,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
-        "category": "Телевизоры"
-      },
-      {
-        "id": 13,
-        "title": "Телевизор Samsung UE55AU7100 Smart",
-        "price": 9256566,
-        "sale": false,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
-        "category": "Телевизоры"
-      },
-      {
-        "id": 14,
-        "title": "Телевизор Samsung UE55AU7100 Smart",
-        "price": 8256566,
-        "sale": true,
-        "count": "6600000",
-        "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
-        "category": "Телевизоры"
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 0,
+      "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+      "price": 6900000,
+      "sale": false,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+      "category": "Телефоны"
+    },
+    {
+      "id": 1,
+      "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+      "price": 7900000,
+      "sale": true,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+      "category": "Телефоны"
+    },
+    {
+      "id": 2,
+      "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+      "price": 5899900,
+      "sale": false,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+      "category": "Телефоны"
+    },
+    {
+      "id": 3,
+      "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+      "price": 2341100,
+      "sale": true,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+      "category": "Телефоны"
+    },
+    {
+      "id": 4,
+      "title": "Смартфон Samsung Galaxy S21 128 ГБ Phantom Gray",
+      "price": 2475150,
+      "sale": false,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Fslider-1.png?alt=media&token=36869a35-878f-41e6-8c2a-a6b728ada97a",
+      "category": "Телефоны"
+    },
+    {
+      "id": 5,
+      "title": "Игровой ноутбук Lenovo Gaming 3 ",
+      "price": 11624000,
+      "sale": true,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 6,
+      "title": "Игровой ноутбук Lenovo Gaming 3 ",
+      "price": 15551250,
+      "sale": true,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 7,
+      "title": "Игровой ноутбук Lenovo Gaming 3 ",
+      "price": 10565445,
+      "sale": false,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 8,
+      "title": "Игровой ноутбук Lenovo Gaming 3 ",
+      "price": 12390000,
+      "sale": false,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 9,
+      "title": "Игровой ноутбук Lenovo Gaming 3 ",
+      "price": 11256566,
+      "sale": true,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2Flaptop.png?alt=media&token=a3d174f1-7341-4f1f-af9e-ac8aac11d0da",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 10,
+      "title": "Телевизор Samsung UE55AU7100 Smart",
+      "price": 14256566,
+      "sale": false,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+      "category": "Телевизоры"
+    },
+    {
+      "id": 11,
+      "title": "Телевизор Samsung UE55AU7100 Smart",
+      "price": 13256566,
+      "sale": false,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+      "category": "Телевизоры"
+    },
+    {
+      "id": 12,
+      "title": "Телевизор Samsung UE55AU7100 Smart",
+      "price": 10256566,
+      "sale": true,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+      "category": "Телевизоры"
+    },
+    {
+      "id": 13,
+      "title": "Телевизор Samsung UE55AU7100 Smart",
+      "price": 9256566,
+      "sale": false,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+      "category": "Телевизоры"
+    },
+    {
+      "id": 14,
+      "title": "Телевизор Samsung UE55AU7100 Smart",
+      "price": 8256566,
+      "sale": true,
+      "count": "6600000",
+      "img": "https://firebasestorage.googleapis.com/v0/b/preview-1f60a.appspot.com/o/preview%2FTV.png?alt=media&token=ff6276cb-9e81-4d32-ae60-bac6e0be5cdc",
+      "category": "Телевизоры"
+    }
+  ],
+  "posts": []
+}

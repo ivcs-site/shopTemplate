@@ -2,6 +2,7 @@ import renderCart from "./renderCart"
 import postData from "./postData"
 
 const cart = () => {
+    const send_form = document.getElementById('my_form');
     let cartBtn = document.querySelector('.navbar-nav__cart')
     let cartModal = document.querySelector('.cart-modal')
     let cartModalClose = document.querySelector('.cart-modal__close')
@@ -20,7 +21,7 @@ const cart = () => {
         document.body.style = 'overflow: hidden;'
 
         const cart = localStorage.getItem('cart') ?
-                  JSON.parse(localStorage.getItem('cart')) : []
+            JSON.parse(localStorage.getItem('cart')) : []
 
         renderCart(cart)
 
@@ -64,12 +65,12 @@ const cart = () => {
     })
 
     productsWrapper.addEventListener('click', (event) => {
-        if(event.target.classList.contains('products-content__item--btn')){
+        if (event.target.classList.contains('products-content__item--btn')) {
             const card = event.target.closest('.products-content__item')
             const key = card.dataset.key
             const products = JSON.parse(localStorage.getItem('products'))
             const cart = localStorage.getItem('cart') ?
-                  JSON.parse(localStorage.getItem('cart')) : []
+                JSON.parse(localStorage.getItem('cart')) : []
             const productsItem = products.find((item) => {
                 return item.id === +key
             })
@@ -78,9 +79,9 @@ const cart = () => {
         }
     })
     cartModalList.addEventListener('click', (event) => {
-        if(event.target.classList.contains('products-content__item--btn')){
+        if (event.target.classList.contains('products-content__item--btn')) {
             const cart = localStorage.getItem('cart') ?
-                  JSON.parse(localStorage.getItem('cart')) : []
+                JSON.parse(localStorage.getItem('cart')) : []
             const card = event.target.closest('.products-content__item')
             const key = card.dataset.key
             const index = cart.findIndex((item) => {
@@ -98,10 +99,14 @@ const cart = () => {
             }, 0)
         }
     })
-    cartSend.addEventListener('click', () => {
-        const cart = localStorage.getItem('cart') ?
-                     JSON.parse(localStorage.getItem('cart')) : []
 
+
+    send_form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const cart = localStorage.getItem('cart') ?
+            JSON.parse(localStorage.getItem('cart')) : []
+
+        console.log(cart);
         postData(cart).then(() => {
             localStorage.removeItem('cart')
             renderCart([])
