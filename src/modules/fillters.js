@@ -27,6 +27,7 @@ export const checkedFillter = (products, valueInput) => {
     return products.filter((productsItem) => {
         if(valueInput) {
             return productsItem.sale === true
+                   
         }else {
             return productsItem
         }
