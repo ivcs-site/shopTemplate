@@ -26,8 +26,7 @@ export const priseFillter = (products, min, max) => {
 export const checkedFillter = (products, valueInput) => {
     return products.filter((productsItem) => {
         if(valueInput) {
-            return productsItem.sale === true
-                   
+            return productsItem.sale === true       
         }else {
             return productsItem
         }

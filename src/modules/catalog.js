@@ -8,10 +8,10 @@ const catalog = () => {
     catalogItem.forEach(item => {
         // console.log(catalogItem);
         item.addEventListener('click', () => {
-            const itemTitle = document.querySelector('.products-content__title')
+            // const itemTitle = document.querySelector('.products-content__title')
             const text = item.textContent;
             
-            itemTitle.textContent = text;
+            // itemTitle.textContent = text;
             // console.log(text);
             getData().then((data) => {
                 renderGoods(categoryFillter(data, text))
